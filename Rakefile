@@ -2,10 +2,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "trw"
-    gemspec.summary = "'Have a nice day!' in English"
+    gemspec.summary = "'Have a nice day!' in some languages"
     gemspec.email = "sora134@gmail.com"
-    gemspec.homepage = "http://codnote.net"
-    gemspec.description = "'Have a nice day!' in English"
+    gemspec.homepage = "http://github.com/sorah/trw"
+    gemspec.description = "'Have a nice day!' in some languages"
     gemspec.authors = ["Sora Harakami"]
   end
 rescue LoadError
