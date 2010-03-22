@@ -33,4 +33,4 @@ dic = {
   :en => ["Have a nice day!","See you!", "See you again!"]
 }
 
-puts dic.key?(ARGV[0].to_sym) ? dic[ARGV[0].to_sym].sample : dic.to_a.sample[1].sample
+puts !ARGV[0].nil? && dic.key?(ARGV[0].to_sym) ? dic[ARGV[0].to_sym].sample : dic.to_a.sample[1].sample
